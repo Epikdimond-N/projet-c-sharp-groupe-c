@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Météo Locale</title>
+</head>
+<body>
+    <div class="main-rectangle">
+    <div class="second-rectangle">
+        <div class="third-rectangle">
+            
+    <h1>Entrez le nom d'une ville </h1>
+    <span class="border"></span>
+    <form action="/index" method="get">
+        <input type="text" id="q" name="q" required autocomplete="off" placeholder="Ex : Marseille">
+        <button type="submit">Search</button>
+        <h4 class="error"> <!-- Error --> </h4>
+    </form>
+
+    <div class="tempinfo-rectangle <!-- Background --> ">
+      
+        <h2> <!-- City --> </h2>
+        <p> <!-- Heure --> </p>
+        <!-- Icon -->
+        <h3> <!-- Temperature --></h3>
+      
+    </div>
+    </div>
+    <div class="rectanglefixe">
+       <!-- WeatherTokyo -->
+       <!-- WeatherNewYork -->
+       <!-- WeatherParis -->
+       <!-- WeatherNewDelhi -->
+    </div>
+</div>
+</div>
+</body>
+</html>

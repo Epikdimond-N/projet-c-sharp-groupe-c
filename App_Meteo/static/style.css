@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Space';
+    src: url('/static/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #100D14;
+}
+
+.main-rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+}
+
+.second-rectangle {
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+    width: 90%;
+    padding-left: 2vw;
+    padding-top: 5vh;
+}
+
+.third-rectangle {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 50%;
+    padding-left: 2vw;
+    
+}
+
+.third-rectangle h1 {
+    font-family: 'Space';
+    font-size: 30px;
+    color: #F2F2F2;
+}
+
+.third-rectangle input {
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 2vh;
+    border-radius: 5px;
+    background-color: #29282D;
+    color: #F2F2F2;
+    border: none;
+    font-family: 'Space';
+    cursor: pointer;
+ 
+}
+
+.third-rectangle input:hover{
+    background-color: #3A393D;
+}
+
+.third-rectangle input:focus {
+    outline: none;
+    background-color: #3A393D;
+}
+
+.third-rectangle button {
+    width: 100px;
+    height: 30px;
+    margin-top: 2vh;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(134, 45, 236, 0.676);
+    color: #F2F2F2;
+    border: none;
+    font-family: 'Space';
+    opacity: 0.90;
+    cursor: pointer;
+    margin-left: 5vw;
+}
+
+.third-rectangle button:hover {
+    background-color: rgba(152, 77, 237, 0.676);
+}
+
+.tempinfo-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 310px;
+    color: #F2F2F2;
+    margin-top: 5vh;
+    border-radius: 5px;
+    
+    background-size: cover;   
+}
+
+.day {
+    background-image: url('/static/backsun.jpg');
+}
+
+.night {
+    background-image: url('/static/backnight.jpg');
+}
+
+.tempinfo-rectangle h2 {
+    margin-top: 2vh;
+    font-family: 'Space';
+    font-size: 30px;
+    color : #F2F2F2;
+    margin-bottom: 1vh;
+}
+
+.tempinfo-rectangle h3 {
+    font-family: 'Space';
+    font-size: 20px;
+    color : #f2f2f2;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+
+.tempinfo-rectangle p {
+    font-family: 'Space';
+    font-size: 20px;
+    color : #F2F2F2;
+    margin-bottom: 2vh;
+}
+
+.tempinfo-rectangle img {
+    width: 75px;
+    height: 75px;
+
+}
+
+.border {
+    border-bottom: 0.1px solid #ccc;
+    width: 75%;
+    margin-top: 0.2vh;
+    opacity: 0.5;
+  }
+
+.error {
+    color: red;
+    font-family: 'Space';
+    font-size: 12px;
+    margin-top: 2vh;
+    margin-left: 0.5vw;
+}
+
+.tempinfo-rectanglefixe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    color: #F2F2F2;
+    margin-top: 5vh;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.tempinfo-rectanglefixe h2 {
+    margin-top: 2vh;
+    font-family: 'Space';
+    font-size: 30px;
+    color : #F2F2F2;
+    margin-bottom: 1vh;
+}
+
+.tempinfo-rectanglefixe h3 {
+    font-family: 'Space';
+    font-size: 20px;
+    color : #f2f2f2;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.tempinfo-rectanglefixe p {
+    font-family: 'Space';
+    font-size: 20px;
+    color : #F2F2F2;
+    margin-bottom: 2vh;
+}
+
+.tempinfo-rectanglefixe img {
+    width: 75px;
+    height: 75px;
+
+}
+
+.rectanglefixe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.main-rectangle-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+    background-color: #100D14;
+}
+
+.main-rectangle-error h2 {
+    font-family: 'Space';
+    font-size: 30px;
+    color: #F2F2F2;
+}
+
+.main-rectangle-error a {
+    margin-top: 2vh;
+    font-size: 20px;
+    color: #F2F2F2;
+    border: none;
+    font-family: 'Space';
+    opacity: 0.90;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-rectangle-error a:hover {
+    color: rgba(152, 77, 237, 0.676);
+}
+
