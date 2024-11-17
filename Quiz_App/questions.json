@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "questionText": "Quelle est la capitale de la France ?",
+      "choices": ["Paris", "Londres", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "id": 2,
+      "questionText": "Combien font 10 x 2 ?",
+      "choices": ["15", "20", "25", "30"],
+      "answer": "20"
+    },
+    {
+      "id": 3,
+      "questionText": "Quel est le plus grand océan du monde ?",
+      "choices": ["Atlantique", "Pacifique", "Indien", "Arctique"],
+      "answer": "Pacifique"
+    },
+    {
+      "id": 4,
+      "questionText": "Quel est le symbole chimique de l'eau ?",
+      "choices": ["O2", "H2O", "CO2", "H2"],
+      "answer": "H2O"
+    },
+    {
+      "id": 5,
+      "questionText": "Combien y a-t-il de minutes dans une heure ?",
+      "choices": ["60", "100", "120", "30"],
+      "answer": "60"
+    },
+    {
+      "id": 6,
+      "questionText": "Qui a écrit 'Roméo et Juliette' ?",
+      "choices": ["Victor Hugo", "William Shakespeare", "Molière", "Hemingway"],
+      "answer": "William Shakespeare"
+    },
+    {
+      "id": 7,
+      "questionText": "Quelle planète est connue comme la planète rouge ?",
+      "choices": ["Mars", "Jupiter", "Vénus", "Saturne"],
+      "answer": "Mars"
+    },
+    {
+      "id": 8,
+      "questionText": "Combien y a-t-il de continents sur Terre ?",
+      "choices": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 9,
+      "questionText": "Quelle est la langue la plus parlée au monde ?",
+      "choices": ["Anglais", "Espagnol", "Chinois", "Hindi"],
+      "answer": "Chinois"
+    },
+    {
+      "id": 10,
+      "questionText": "Quel est l'animal terrestre le plus rapide ?",
+      "choices": ["Guépard", "Lion", "Léopard", "Gazelle"],
+      "answer": "Guépard"
+    },
+    {
+      "id": 11,
+      "questionText": "Quelle est la plus petite unité de matière ?",
+      "choices": ["Atome", "Molécule", "Proton", "Électron"],
+      "answer": "Atome"
+    },
+    {
+      "id": 12,
+      "questionText": "Qui a découvert la gravité ?",
+      "choices": ["Einstein", "Newton", "Galilée", "Tesla"],
+      "answer": "Newton"
+    },
+    {
+      "id": 13,
+      "questionText": "Quelle est la plus grande planète du système solaire ?",
+      "choices": ["Mars", "Jupiter", "Saturne", "Uranus"],
+      "answer": "Jupiter"
+    },
+    {
+      "id": 14,
+      "questionText": "Combien de joueurs composent une équipe de football ?",
+      "choices": ["10", "11", "12", "9"],
+      "answer": "11"
+    },
+    {
+      "id": 15,
+      "questionText": "Quel est l'animal emblème de l'Australie ?",
+      "choices": ["Kangourou", "Koala", "Émeu", "Dingo"],
+      "answer": "Kangourou"
+    }
+  ]
+  
